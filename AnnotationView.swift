@@ -52,10 +52,8 @@ class AnnotationView: ARAnnotationView {
     distanceLabel?.frame = CGRect(x: 10, y: 30, width: self.frame.size.width, height: 20)
   }
   
-  //2
   override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
     delegate?.didTouch(annotationView: self)
   }
-  
   
 }

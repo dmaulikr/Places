@@ -158,8 +158,8 @@
 			children = (
 				014D90A01F24FC9F003FBFB4 /* HDAugmentedReality */,
 				8F7404461DCDD569009A6F0B /* AppDelegate.swift */,
-				8F7404481DCDD569009A6F0B /* ViewController.swift */,
 				014D909E1F24F2E3003FBFB4 /* AnnotationView.swift */,
+				8F7404481DCDD569009A6F0B /* ViewController.swift */,
 				8F74047F1DCF31B0009A6F0B /* Place.swift */,
 				014D909C1F24E9FF003FBFB4 /* PlaceAnnotation.swift */,
 				8F74044A1DCDD569009A6F0B /* Main.storyboard */,
