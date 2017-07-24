@@ -33,7 +33,7 @@
 
 /* Begin PBXFileReference section */
 		014D909C1F24E9FF003FBFB4 /* PlaceAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceAnnotation.swift; sourceTree = "<group>"; };
-		014D909E1F24F2E3003FBFB4 /* AnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnotationView.swift; sourceTree = "<group>"; };
+		014D909E1F24F2E3003FBFB4 /* AnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnnotationView.swift; path = ../AnnotationView.swift; sourceTree = "<group>"; };
 		014D90A21F24FC9F003FBFB4 /* ARAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARAnnotation.swift; sourceTree = "<group>"; };
 		014D90A31F24FC9F003FBFB4 /* ARAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARAnnotationView.swift; sourceTree = "<group>"; };
 		014D90A41F24FC9F003FBFB4 /* ARConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARConfiguration.swift; sourceTree = "<group>"; };
@@ -136,7 +136,6 @@
 		8F74043A1DCDD569009A6F0B = {
 			isa = PBXGroup;
 			children = (
-				014D909E1F24F2E3003FBFB4 /* AnnotationView.swift */,
 				8F7404451DCDD569009A6F0B /* Places */,
 				8F7404441DCDD569009A6F0B /* Products */,
 				389CD61CC9570C5C21C9E747 /* Pods */,
@@ -159,6 +158,7 @@
 			children = (
 				014D90A01F24FC9F003FBFB4 /* HDAugmentedReality */,
 				8F7404461DCDD569009A6F0B /* AppDelegate.swift */,
+				014D909E1F24F2E3003FBFB4 /* AnnotationView.swift */,
 				8F7404481DCDD569009A6F0B /* ViewController.swift */,
 				8F74047F1DCF31B0009A6F0B /* Place.swift */,
 				014D909C1F24E9FF003FBFB4 /* PlaceAnnotation.swift */,
