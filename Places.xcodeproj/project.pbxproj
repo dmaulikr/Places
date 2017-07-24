@@ -27,7 +27,6 @@
 		8F74044C1DCDD569009A6F0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F74044A1DCDD569009A6F0B /* Main.storyboard */; };
 		8F74044E1DCDD569009A6F0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F74044D1DCDD569009A6F0B /* Assets.xcassets */; };
 		8F7404511DCDD569009A6F0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F74044F1DCDD569009A6F0B /* LaunchScreen.storyboard */; };
-		8F7404801DCF31B0009A6F0B /* PlacesLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F74047E1DCF31B0009A6F0B /* PlacesLoader.swift */; };
 		8F7404811DCF31B0009A6F0B /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F74047F1DCF31B0009A6F0B /* Place.swift */; };
 		9B0475FB5FD466D80F0C83C6 /* libPods-Places.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD347D314ECDA1D4ADFD4347 /* libPods-Places.a */; };
 /* End PBXBuildFile section */
@@ -57,7 +56,6 @@
 		8F74044D1DCDD569009A6F0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F7404501DCDD569009A6F0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F7404521DCDD569009A6F0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8F74047E1DCF31B0009A6F0B /* PlacesLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacesLoader.swift; sourceTree = "<group>"; };
 		8F74047F1DCF31B0009A6F0B /* Place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
 		BD347D314ECDA1D4ADFD4347 /* libPods-Places.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Places.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -162,10 +160,9 @@
 				8F7404461DCDD569009A6F0B /* AppDelegate.swift */,
 				8F7404481DCDD569009A6F0B /* ViewController.swift */,
 				014D909E1F24F2E3003FBFB4 /* AnnotationView.swift */,
-				8F74047E1DCF31B0009A6F0B /* PlacesLoader.swift */,
 				8F74047F1DCF31B0009A6F0B /* Place.swift */,
-				8F74044A1DCDD569009A6F0B /* Main.storyboard */,
 				014D909C1F24E9FF003FBFB4 /* PlaceAnnotation.swift */,
+				8F74044A1DCDD569009A6F0B /* Main.storyboard */,
 				8F74044D1DCDD569009A6F0B /* Assets.xcassets */,
 				8F74044F1DCDD569009A6F0B /* LaunchScreen.storyboard */,
 				8F7404521DCDD569009A6F0B /* Info.plist */,
@@ -309,7 +306,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F7404801DCF31B0009A6F0B /* PlacesLoader.swift in Sources */,
 				014D90B91F24FC9F003FBFB4 /* DebugMapViewController.swift in Sources */,
 				014D90B21F24FC9F003FBFB4 /* ARAnnotation.swift in Sources */,
 				014D90BA1F24FC9F003FBFB4 /* CameraView.swift in Sources */,
