@@ -18,10 +18,10 @@ class AnnotationView: ARAnnotationView {
   var delegate: AnnotationViewDelegate?
   
   override func didMoveToSuperview() {
-  super.didMoveToSuperview()
+    super.didMoveToSuperview()
     
     loadUI()
-}
+  }
   
   func loadUI() {
     titleLabel?.removeFromSuperview()
