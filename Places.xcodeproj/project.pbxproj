@@ -21,6 +21,7 @@
 		014D90BC1F24FC9F003FBFB4 /* hdar_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 014D90AF1F24FC9F003FBFB4 /* hdar_close.png */; };
 		014D90BD1F24FC9F003FBFB4 /* hdar_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 014D90B01F24FC9F003FBFB4 /* hdar_close@2x.png */; };
 		014D90BE1F24FC9F003FBFB4 /* hdar_close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 014D90B11F24FC9F003FBFB4 /* hdar_close@3x.png */; };
+		01972D501F2732C00049816C /* AnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01972D4F1F2732C00049816C /* AnnotationView.swift */; };
 		8F7404471DCDD569009A6F0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7404461DCDD569009A6F0B /* AppDelegate.swift */; };
 		8F7404491DCDD569009A6F0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7404481DCDD569009A6F0B /* ViewController.swift */; };
 		8F74044C1DCDD569009A6F0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F74044A1DCDD569009A6F0B /* Main.storyboard */; };
@@ -45,6 +46,7 @@
 		014D90AF1F24FC9F003FBFB4 /* hdar_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hdar_close.png; sourceTree = "<group>"; };
 		014D90B01F24FC9F003FBFB4 /* hdar_close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hdar_close@2x.png"; sourceTree = "<group>"; };
 		014D90B11F24FC9F003FBFB4 /* hdar_close@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hdar_close@3x.png"; sourceTree = "<group>"; };
+		01972D4F1F2732C00049816C /* AnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnotationView.swift; sourceTree = "<group>"; };
 		0F77E2A0FE2D5DFB3CA19A41 /* Pods-Places.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Places.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Places/Pods-Places.debug.xcconfig"; sourceTree = "<group>"; };
 		701D1267EC533ED467DBA29A /* Pods-Places.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Places.release.xcconfig"; path = "Pods/Target Support Files/Pods-Places/Pods-Places.release.xcconfig"; sourceTree = "<group>"; };
 		8F7404431DCDD569009A6F0B /* Places.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Places.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -156,6 +158,7 @@
 			children = (
 				014D90A01F24FC9F003FBFB4 /* HDAugmentedReality */,
 				8F7404461DCDD569009A6F0B /* AppDelegate.swift */,
+				01972D4F1F2732C00049816C /* AnnotationView.swift */,
 				8F7404481DCDD569009A6F0B /* ViewController.swift */,
 				8F74047F1DCF31B0009A6F0B /* Place.swift */,
 				014D909C1F24E9FF003FBFB4 /* PlaceAnnotation.swift */,
@@ -306,6 +309,7 @@
 				014D90B91F24FC9F003FBFB4 /* DebugMapViewController.swift in Sources */,
 				014D90B21F24FC9F003FBFB4 /* ARAnnotation.swift in Sources */,
 				014D90BA1F24FC9F003FBFB4 /* CameraView.swift in Sources */,
+				01972D501F2732C00049816C /* AnnotationView.swift in Sources */,
 				014D90B31F24FC9F003FBFB4 /* ARAnnotationView.swift in Sources */,
 				014D90B71F24FC9F003FBFB4 /* ARTrackingManager.swift in Sources */,
 				014D90B51F24FC9F003FBFB4 /* ARPresenter+Stacking.swift in Sources */,
